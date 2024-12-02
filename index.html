@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <title>Parallax animation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id = "canv"></canvas>
+    
+    <div class = "container">
+        <canvas id = "canv"></canvas>
+        <p>Game Speed : <span id = "showGameSpeed"></span></p>
+       <input type="range" class = "slider" id = "slider" max = "17" min = "0">
+    </div>
     <script src = "script.js"></script>
 </body>
 </html>
